@@ -20,5 +20,6 @@ int main(void)
 //    com2.unCompress(str);
 
 
+
     return 0;
 }

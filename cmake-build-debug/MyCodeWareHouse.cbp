@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/zpx/Nustore Files/我的坚果云/workNow/MyCodeWareHouse/AVL-Tree.cpp">
+			<Option target="MyCodeWareHouse"/>
+		</Unit>
 		<Unit filename="/Users/zpx/Nustore Files/我的坚果云/workNow/MyCodeWareHouse/Heap.h">
 			<Option target="MyCodeWareHouse"/>
 		</Unit>
@@ -102,9 +105,6 @@
 			<Option target="MyCodeWareHouse"/>
 		</Unit>
 		<Unit filename="/Users/zpx/Nustore Files/我的坚果云/workNow/MyCodeWareHouse/vitter.cpp">
-			<Option target="MyCodeWareHouse"/>
-		</Unit>
-		<Unit filename="/Users/zpx/Nustore Files/我的坚果云/workNow/MyCodeWareHouse/vitter.h">
 			<Option target="MyCodeWareHouse"/>
 		</Unit>
 		<Unit filename="/Users/zpx/Nustore Files/我的坚果云/workNow/MyCodeWareHouse/CMakeLists.txt">
