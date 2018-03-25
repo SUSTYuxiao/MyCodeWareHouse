@@ -60,7 +60,7 @@ class AVLTree
                     cur = new Node(key, value);
                     cur->_parent=parent;
                     parent->_rChild = cur;
-                    return true; //找到，在右子树插入
+                    break; //找到，在右子树插入
                 }
             }
             else if (key < cur->_key)
@@ -72,7 +72,7 @@ class AVLTree
                     cur = new Node(key, value);
                     cur->_parent=parent;
                     parent->_lChild = cur;
-                    return true; //找到，在左子树插入
+                    break; //找到，在左子树插入
                 }
             }
             else
@@ -82,7 +82,7 @@ class AVLTree
         }
 
         //更新平衡因子
-        while (!_root)
+        while (cur != _root)
         {
             if (cur == parent->_rChild)
             {
@@ -102,30 +102,32 @@ class AVLTree
                 cur = parent;
                 parent = parent->_parent;
             }
-
-            if (parent->_baf == 2)//右子树过高
+            else if (parent->_baf == 2)//右子树过高
             {
                 if (cur->_baf == 1)
                 {
-                    RotateL(parent);
+                    RotateL(parent->_rChild);
                 }
                 else
                 {
-                    RotateRL(parent->_lChild);
+                    RotateRL(parent);
                 }
+                return true;
             }
             else//左子树过高
             {
                 if (cur->_baf == 1)
                 {
-                    RotateR(parent);
+                    RotateR(parent->_lChild);
                 }
                 else
                 {
-                    RotateLR(parent->_rChild);
+                    RotateLR(parent);
                 }
+                return true;
             }
         }//end of while
+        return true;
     }
 
     void RotateL(Node *parent)
@@ -167,7 +169,7 @@ class AVLTree
     void RotateR(Node *parent)
     {
         Node *subL = parent->_lChild;
-        Node *subLR = subL->_lChild;
+        Node *subLR = subL->_rChild;
         Node *pParent = parent->_parent;
 
         subL->_rChild = parent;
