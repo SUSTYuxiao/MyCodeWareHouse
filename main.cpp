@@ -22,14 +22,12 @@ using namespace std;
 
 int main(void)
 {
-    AVLTree<int,int> t;
-    int a[] = {4,2,6,1,3,5,15,7,16,14};
-
-    for (int i = 0; i < sizeof(a) / sizeof(a[0]); ++i)
-    {
-        t.Insert(a[i], 0);
-    }
-
-    return 0;
+//    AVLTree<int,int> t;
+//    int a[] = {4,2,6,1,3,5,15,7,16,14};
+//
+//    for (int i = 0; i < sizeof(a) / sizeof(a[0]); ++i)
+//    {
+//        t.Insert(a[i], 0);
+//    }
 
 }
