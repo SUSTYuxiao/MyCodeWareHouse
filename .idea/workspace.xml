@@ -11,9 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbaee659-6365-48eb-8b8a-c34116447eb2" name="Default" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fbaee659-6365-48eb-8b8a-c34116447eb2" name="Default" comment="test" />
     <ignored mask="rest-client.private.env.json" />
     <ignored mask="http-client.private.env.json" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -78,7 +76,7 @@
       <file leaf-file-name="AVL-Tree.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AVL-Tree.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3420">
+            <state relative-caret-position="617">
               <caret line="228" column="24" selection-start-line="227" selection-start-column="8" selection-end-line="228" selection-end-column="24" />
               <folding>
                 <element signature="e#89#107#0" expanded="true" />
@@ -245,7 +243,7 @@
       <workItem from="1521874028203" duration="37000" />
       <workItem from="1521874840915" duration="24953000" />
       <workItem from="1522385749818" duration="10889000" />
-      <workItem from="1522683661920" duration="2378000" />
+      <workItem from="1522683661920" duration="3555000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1521876640495</created>
@@ -258,7 +256,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97747000" />
+    <option name="totallyTimeSpent" value="98924000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -720,16 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AVL-Tree.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3420">
-          <caret line="228" column="24" selection-start-line="227" selection-start-column="8" selection-end-line="228" selection-end-column="24" />
-          <folding>
-            <element signature="e#89#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RBTree.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
@@ -741,6 +729,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVL-Tree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="228" column="24" selection-start-line="227" selection-start-column="8" selection-end-line="228" selection-end-column="24" />
+          <folding>
+            <element signature="e#89#107#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
