@@ -83,6 +83,12 @@
 		<Unit filename="/Users/zpx/Nustore Files/我的坚果云/workNow/MyCodeWareHouse/AVL-Tree.h">
 			<Option target="MyCodeWareHouse"/>
 		</Unit>
+		<Unit filename="/Users/zpx/Nustore Files/我的坚果云/workNow/MyCodeWareHouse/BitMap.h">
+			<Option target="MyCodeWareHouse"/>
+		</Unit>
+		<Unit filename="/Users/zpx/Nustore Files/我的坚果云/workNow/MyCodeWareHouse/BloomFilter.h">
+			<Option target="MyCodeWareHouse"/>
+		</Unit>
 		<Unit filename="/Users/zpx/Nustore Files/我的坚果云/workNow/MyCodeWareHouse/Heap.h">
 			<Option target="MyCodeWareHouse"/>
 		</Unit>
