@@ -13,8 +13,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fbaee659-6365-48eb-8b8a-c34116447eb2" name="Default" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BitMap.h" beforeDir="false" afterPath="$PROJECT_DIR$/BitMap.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BloomFilter.h" beforeDir="false" afterPath="$PROJECT_DIR$/BloomFilter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/MyCodeWareHouse.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/MyCodeWareHouse.cbp" afterDir="false" />
     </list>
     <ignored mask="rest-client.private.env.json" />
     <ignored mask="http-client.private.env.json" />
@@ -71,22 +71,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Non-recursive-BinTree.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Non-recursive-BinTree.cpp">
+      <file leaf-file-name="BloomFilter.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BloomFilter.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#155#237#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BloomFilter.h" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BloomFilter.h">
+      <file leaf-file-name="str.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cLib/str.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
-                <element signature="e#155#237#0" expanded="true" />
+                <element signature="e#55#72#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,6 +159,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/BitMap.h" />
         <option value="$PROJECT_DIR$/BloomFilter.h" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/str*.cpp" />
+        <option value="$PROJECT_DIR$/cLib/str.cpp" />
       </list>
     </option>
   </component>
@@ -201,6 +206,11 @@
               <item name="MyCodeWareHouse" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCodeWareHouse" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MyCodeWareHouse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCodeWareHouse" type="462c0819:PsiDirectoryNode" />
+              <item name="cLib" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -217,7 +227,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="http.client.ignore.private.env.files.were.configured" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -260,7 +270,7 @@
       <workItem from="1522385749818" duration="10889000" />
       <workItem from="1522683661920" duration="3587000" />
       <workItem from="1524569343467" duration="1563000" />
-      <workItem from="1524820355075" duration="4001000" />
+      <workItem from="1524820355075" duration="5999000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1521876640495</created>
@@ -273,7 +283,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104520000" />
+    <option name="totallyTimeSpent" value="106518000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -293,7 +303,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
       <window_info anchor="bottom" id="CMake" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32969698" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" weight="0.32969698" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2230303" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="11" />
@@ -375,6 +385,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="test" />
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
@@ -405,23 +418,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AVL-Tree.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3420">
-          <caret line="228" column="24" selection-start-line="227" selection-start-column="8" selection-end-line="228" selection-end-column="24" />
-          <folding>
-            <element signature="e#89#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Heap.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1665">
-          <caret line="111" column="17" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HuffmanTree.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
@@ -772,12 +768,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/str*.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/BloomFilter.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#155#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cLib/str.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#55#72#0" expanded="true" />
           </folding>
         </state>
       </provider>
