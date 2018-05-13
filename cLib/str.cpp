@@ -34,8 +34,8 @@ char* _strncpy(char* des, const char* src, size_t len)
     while((*des++ = *src++) != '\0' && count++ < len)
         ;
 
-    if(des != '\0')
-        des = '\0';
+    if(*des != '\0')
+        *des = '\0';
 
     return address;
 }
