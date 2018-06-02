@@ -110,6 +110,9 @@
 		<Unit filename="/Users/zpx/Nustore Files/我的坚果云/workNow/MyCodeWareHouse/bigNum.cpp">
 			<Option target="MyCodeWareHouse"/>
 		</Unit>
+		<Unit filename="/Users/zpx/Nustore Files/我的坚果云/workNow/MyCodeWareHouse/cLib/myA2i.cpp">
+			<Option target="MyCodeWareHouse"/>
+		</Unit>
 		<Unit filename="/Users/zpx/Nustore Files/我的坚果云/workNow/MyCodeWareHouse/cLib/str.cpp">
 			<Option target="MyCodeWareHouse"/>
 		</Unit>
