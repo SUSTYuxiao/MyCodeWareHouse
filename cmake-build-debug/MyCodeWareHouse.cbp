@@ -107,6 +107,9 @@
 		<Unit filename="/Users/zpx/Nustore Files/我的坚果云/workNow/MyCodeWareHouse/adaptive-huffman.cpp">
 			<Option target="MyCodeWareHouse"/>
 		</Unit>
+		<Unit filename="/Users/zpx/Nustore Files/我的坚果云/workNow/MyCodeWareHouse/algorithm/quickSort.h">
+			<Option target="MyCodeWareHouse"/>
+		</Unit>
 		<Unit filename="/Users/zpx/Nustore Files/我的坚果云/workNow/MyCodeWareHouse/bigNum.cpp">
 			<Option target="MyCodeWareHouse"/>
 		</Unit>
